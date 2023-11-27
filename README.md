@@ -1,24 +1,25 @@
 # Weather App — Clean Architecture and BLoC Pattern
 
-<div
-  style="
-    width: 100%;
-    height: 100%;
-    gap: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-  "
->
-  <img
-    src=".github/Loading.png"
-    style="width: 400px; height: 100%;"
-  />
-
-  <img
-    src=".github/Home.png"
-    style="width: 400px;"
-  />
-</div>
+<p align="center">
+  <table>
+    <thead>
+        <tr>
+            <th align="center">
+              <small>Loading state</small>
+            </th>
+            <th align="center">
+              <small>Home Screen</small>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img width="300px" src=".github/Loading.png" /></td>
+            <td><a href="02"><img width="300px" src=".github/Home.png" /></td>
+        </tr>
+    </tbody>
+  </table>
+</p>
 
 ## Estrutura de pastas
 
