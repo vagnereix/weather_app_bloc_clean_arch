@@ -15,7 +15,7 @@
     <tbody>
         <tr>
             <td><img width="300px" src=".github/Loading.png" /></td>
-            <td><a href="02"><img width="300px" src=".github/Home.png" /></td>
+            <td><img width="300px" src=".github/Home.png" /></td>
         </tr>
     </tbody>
   </table>
@@ -57,8 +57,22 @@
 - `SOLID`
   - `SRP` — Single Responsibility Principle (Princípio da responsabilidade única);
   - `OCP` — Open-Closed Principle (Princípio Aberto-Fechado);
-  - `LSP` — Liskov Substitution Principle (Princípio da substituição de Liskov);
+  - `LSP` — Liskov Substitution Principle (Princípio da substituição de `Liskov`);
   - `ISP` — Interface Segregation Principle (Princípio da Segregação da Interface);
   - `DIP` — Dependency Inversion Principle (Princípio da inversão da dependência);
 - `BLoC Pattern`
   - O Bloc Pattern é um padrão de design de software que ajuda a separar a lógica de negócios da apresentação (view) em aplicativos móveis. Ele permite que os desenvolvedores gerenciem eficientemente e convenientemente o estado em seus aplicativos sem um acoplamento rígido entre a apresentação e a lógica. Ele também visa a reutilização da mesma lógica em vários widgets.
+
+### Dependências
+
+<img width="300px" src=".github/deps.png" />
+
+### Como executar
+
+```shell
+$ git clone git@github.com:vagnereix/weather_app_bloc_clean_arch.git
+$ cd weather_app_bloc_clean_arch
+$ code . # ou abra com sua IDE preferida
+$ flutter pub get
+$ flutter run lib/main.dart # ou utilize sua IDE para iniciar
+```
