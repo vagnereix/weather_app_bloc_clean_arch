@@ -73,6 +73,10 @@
 $ git clone git@github.com:vagnereix/weather_app_bloc_clean_arch.git
 $ cd weather_app_bloc_clean_arch
 $ code . # ou abra com sua IDE preferida
+
+# setup your API_KEY from https://openweathermap.org/api
+# on lib/core/utils/constants.dart
+
 $ flutter pub get
 $ flutter run lib/main.dart # ou utilize sua IDE para iniciar
 ```
