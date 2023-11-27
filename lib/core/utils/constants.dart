@@ -1,1 +1,1 @@
-const String kApiKey = "c029545dc4797e4a2f74b8f8c9b98e28";
+const String kApiKey = "set your api key from https://openweathermap.org/api";
